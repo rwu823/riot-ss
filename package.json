@@ -24,5 +24,16 @@
     "svg"
   ],
   "author": "Rocky Wu <rwu823@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwu823/riot-ss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rwu823/riot-ss/issues"
+  },
+  "homepage": "https://github.com/rwu823/riot-ss#readme"
 }
