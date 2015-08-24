@@ -13,7 +13,6 @@ Webpack or Browserify:
 require('riot-ss')
 ```
 
-
 ## What is the problems for use riot in svg
 
 Original HTML `<use>`  element usage:
@@ -21,7 +20,7 @@ Original HTML `<use>`  element usage:
 <svg><use xlink:href="#symbol_id" /></svg>
 ```
 
-In riot.js
+In riot.js may you try:
 
 ```html
 <svg><use xlink:href="#{symbol_id}" /></svg>

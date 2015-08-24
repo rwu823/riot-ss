@@ -1,6 +1,6 @@
 {
   "name": "riot-ss",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Riot SVG Sprite Component",
   "main": "index.js",
   "dependencies": {},
