@@ -1,5 +1,19 @@
 # Riot.js SVG Sprite Component
 
+## Installation
+    npm ins riot-ss --save-dev
+
+Import script
+```html
+<script src="riot.ss.min.js"></script>
+```
+Webpack or Browserify:
+
+```js
+require('riot-ss')
+```
+
+
 ## What is the problems for use riot in svg
 
 Original HTML `<use>`  element usage:
@@ -30,8 +44,9 @@ yield:
 ```html
 <svg><use xlink:href="#edit" /></svg>
 ```
-** Congratulation !!!** Shorten and work fine now
-Note: Please without `#` syntax, component will add this automated.
+**Congratulation !!!** Shorten and work fine now.
+
+> Note: Please without `#` syntax, component will add this automated.
 
 ## Options
 - `link`  link to symbol #id
